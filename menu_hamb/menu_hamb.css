@@ -36,7 +36,6 @@ ul {
         margin-bottom: 2rem;
     }
     input:checked ~ ul {
-        display: block;
         width: 50vw;
         height: 90vh;
         background-color: rgb(168, 168, 168);
