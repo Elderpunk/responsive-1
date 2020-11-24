@@ -1,0 +1,38 @@
+/* MEDIA QUERIS GLOBALES */
+/* ********************* */
+
+@media screen and (hover: none) {
+    /* Tácil */
+}
+@media screen and (hover: hover) {
+    /* Desktop */
+}
+
+@media screen and (max-width: 50rem) {
+    /* Desktop */
+    /* Dispostivos con un viewport no inferior a 50rem */
+}
+
+@media screen and (orientation: portrait) {
+    /* Teléfonos, Tablets, Desktop con una pantalla en vertical con el  */
+}
+
+@media screen and (orientation: portrait) and (min-resolution: 200dpi){
+    /* Telefonos de alta gama */
+}
+
+@media screen and (orientation: landscape) and (max-device-width: 700px) and (min1-resolution: 200dpi){
+    /* Telefonos en horizontal */
+}
+
+@media screen and (max-aspect-ratio: 3/2){
+
+}
+
+
+/* RWD Dispositivos específicos */
+/* ***************************** */
+
+@media screen and (min-width: 320px) and (max-width: 500px) and (orientation: portrait){
+
+}

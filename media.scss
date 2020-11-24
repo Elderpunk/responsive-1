@@ -1,0 +1,49 @@
+.aside{
+    // Global
+    width: 300px;
+    // media queri
+    @media screen and (orientation: portrait){
+        width: 200px;
+    }
+}
+
+/* ************* */
+@media screen {
+    .aside{
+        @media (orientation: portrait){
+            width: 600px;
+        }
+    }
+}
+
+/* ************* */
+$media: screen;
+$tipo: min-device-pixel-ratio;
+
+$valor: 1.2;
+
+@media #{$media} and ($tipo : $valor) {
+    .sidebar {
+        width: 500px;
+    }
+}
+
+
+
+/* ************* */
+/* parcial MIXIN */
+@mixin prueba {
+    html{
+        @content;
+    }
+}
+
+
+/* parcial contenedor */
+@include prueba {
+    #logo {
+        color: red;;
+    }
+}
+
+/* ******************* */
